@@ -211,6 +211,7 @@ svg.bi.bi-arrow-right {
   }
   h4 {
     font-size: 1.2rem;
+    margin-top: 60px;
   }
   h1 {
     font-size: 4rem;
@@ -266,7 +267,6 @@ svg.bi.bi-arrow-right {
     font-size: 3rem;
   }
   h2 {
-    margin-top: 350px;
     font-size: 3rem;
   }
   .page-logo img {
@@ -293,7 +293,7 @@ svg.bi.bi-arrow-right {
     width: 450px;
   }
   h2 {
-    margin-top: 350px;
+    margin-top: 400px;
     font-size: 3rem;
   }
   .page-logo img {
@@ -321,7 +321,6 @@ svg.bi.bi-arrow-right {
     line-height: 50px;
   }
   h2 {
-    margin-top: 350px;
     font-size: 3rem;
   }
   .page-logo img {
@@ -350,7 +349,6 @@ svg.bi.bi-arrow-right {
     line-height: 50px;
   }
   h2 {
-    margin-top: 350px;
     font-size: 3rem;
   }
   .page-logo img {
