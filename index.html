@@ -20,38 +20,66 @@
   </head>
 
   <body>
-    <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
-      <source src="video.mp4" type="video/mp4" />
-    </video>
-    <div class="page-container">
-      <div class="page-logo">
-        <img src="assets/dbs-logo.png" />
-      </div>
-      <div class="page-main">
-        <div class="text-area">
-          <div class="text-medium">Welcome to</div>
-          <div class="text-large">DBS Newton Green</div>
-          <div class="text-small">
-            Take a walk through Singapore's first net zero office building by a
-            bank
+    <div id="iframe-section">
+      <iframe
+        id="mp-iframe"
+        style="
+          position: absolute;
+          left: 0px;
+          bottom: 0px;
+          right: 0px;
+          width: 100%;
+          border: none;
+          margin: 0px;
+          padding: 0px;
+          overflow: hidden;
+          z-index: 11;
+          height: 100%;
+        "
+        src="https://360.theredmarker.com/F12z1mGv51/34683821p&amp;348.63h&amp;92.01t"
+        frameborder="0"
+        marginwidth="0"
+        marginheight="0"
+        scrolling="auto"
+        allowfullscreen="allowfullscreen"
+        data-gtm-yt-inspected-1935288_373="true"
+        data-gtm-yt-inspected-72="true"
+      ></iframe>
+    </div>
+    <div id="video-section">
+      <video playsinline autoplay muted loop poster="polina.jpg" id="bgvid">
+        <source src="video.mp4" type="video/mp4" />
+      </video>
+      <div class="page-container">
+        <div class="page-logo">
+          <img src="assets/dbs-logo.png" />
+        </div>
+        <div class="page-main">
+          <div class="text-area">
+            <div class="text-medium">Welcome to</div>
+            <div class="text-large">DBS Newton Green</div>
+            <div class="text-small">
+              Take a walk through Singapore's first net zero office building by
+              a bank
+            </div>
           </div>
         </div>
-      </div>
-      <div class="page-explore">
-        <p class="explore">
-          <a href="#"
-            >EXPLORE
-            <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
-            <lord-icon
-              src="https://cdn.lordicon.com/iifryyua.json"
-              trigger="loop"
-              colors="primary:#ffffff"
-              scale="35"
-              style="width: 250px; height: 250px"
-            >
-            </lord-icon>
-          </a>
-        </p>
+        <div class="page-explore">
+          <p class="explore">
+            <a href="#" class="btn-danger"
+              >EXPLORE
+              <script src="https://cdn.lordicon.com/xdjxvujz.js"></script>
+              <lord-icon
+                src="https://cdn.lordicon.com/iifryyua.json"
+                trigger="loop"
+                colors="primary:#ffffff"
+                scale="35"
+                style="width: 250px; height: 250px"
+              >
+              </lord-icon>
+            </a>
+          </p>
+        </div>
       </div>
     </div>
   </body>
