@@ -86,10 +86,12 @@
 </html>
 
 <script>
-  jQuery(document).ready(function () {
-    jQuery(".btn-danger").click(function () {
-      jQuery("#video-section").hide();
-      jQuery("#iframe-section").show();
+  $(document).ready(function () {
+    $("#video-section").show();
+    $("#iframe-section").hide();
+    $(".btn-danger").click(function () {
+      $("#video-section").hide();
+      $("#iframe-section").show();
     });
   });
 </script>
